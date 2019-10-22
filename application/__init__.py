@@ -14,12 +14,10 @@ def create_app():
     redis_client.init_app(app)
 
     with app.app_context():
-        # Include our Routes
+        # Include routes
         from . import routes
 
-        # Register Blueprints
-        app.register_blueprint(routes.main_bp)
-        # app.register_blueprint(auth.auth_bp)
-        # app.register_blueprint(admin.admin_bp)
+        # Register blueprints
+        #app.register_blueprint(routes.main_bp)
 
         return app
