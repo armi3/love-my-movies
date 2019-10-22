@@ -121,3 +121,7 @@ Which gave me [trending_movies.json](trending_movies.json)
 - WORK it
 - GIT TAG it
 - DELIVER it
+
+#Resources
+* https://hackersandslackers.com/demystifying-flask-application-factory
+* https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-18-04
