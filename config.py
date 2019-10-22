@@ -1,6 +1,6 @@
 from os import environ
 from dotenv import load_dotenv
-import redis
+#import redis
 
 
 class Config:
@@ -15,6 +15,7 @@ class Config:
     REDIS_PASS = environ.get('REDIS_PASS')
     REDIS_HOST = environ.get('REDIS_HOST')
     REDIS_PORT = environ.get('REDIS_PORT')
+    # REDIS_URL = redis.from_url(environ.get('REDIS_URL'))
     # FLASK_APP = environ.get('FLASK_APP')
     # FLASK_ENV = environ.get('FLASK_ENV')
     #
